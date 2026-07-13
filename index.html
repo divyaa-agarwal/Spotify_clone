@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="images/spotify (2).png" type="image/png">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="left-half">
+                <div class="spotify-logo">
+                    <i class="ri-spotify-fill" id="spotify"></i>
+                </div>
+                <div class="home-icon">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="search-bar">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" class="input-box" placeholder="What do you want to play?">
+                    <div class="browse">
+                        <i class="fa-etch fa-solid fa-folder-open"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="right-half">
+                <div class="right-half1">
+                    <p class="nav-text">Premium</p>
+                    <p class="nav-text">Support</p>
+                    <p class="nav-text">Download</p>
+                </div>
+                <div class="right-half2">
+                    <div class="install">
+                        <i class="fa-regular fa-circle-down nav-text"></i>
+                        <p class="nav-text">Install App</p>
+                    </div>
+                    <div class="sign-up nav-text">Sign up</div>
+                    <button class="login-btn">Log in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="main">
+            <div class="main-left">
+                <div class="library">
+                    <p class="your-library">Your Library</p>
+                    <div class="create">
+                        <i class="fa-solid fa-plus"></i>
+                        <p>Create</p>
+                    </div>
+                </div>
+                <div class="box-container">
+                    <div class="box">
+                        <h4>Create your first playlist</h4>
+                        <p>It's easy,we'll help you</p>
+                        <button>Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <h4>Let's find some podcasts to follow</h4>
+                        <p>we'll keep you updated on new episodes</p>
+                        <button>Browse podcasts</button>
+                    </div>
+                    <div class="sidebar-footer">
+                        <div class="footer-links">
+                            <a href="#">Legal</a>
+                            <a href="#">Safety & Privacy Center</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                        <div class="footer-links">
+                            <a href="#">Cookies</a>
+                            <a href="#">About Ads</a>
+                            <a href="#">Accesbility</a>
+                        </div>
+                        <div class="footer-links">
+                            <a href="#">Cookies</a>
+                        </div>
+                        <button class="language-btn">
+                            <i class="fa-solid fa-globe"></i>
+                            English
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="music-section">
+                    <h2>Trending Songs</h2>
+                    <div class="songs">
+                        <div class="music-card">
+                            <img src="images/1.jpg" alt="">
+                            <div class="music-play-btn"><i id="1" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Arz Kiya Hai |Coke Studio Bharat</div>
+                            <div class="img-description">Anuv Jain</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="images/2.jpeg" alt="">
+                            <div class="music-play-btn"><i id="2" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Husn</div>
+                            <div class="img-description">Anuv Jain</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="images/3.jpeg" alt="">
+                            <div class="music-play-btn"><i id="3" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Boyfriend</div>
+                            <div class="img-description">Karan Aujla</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="images/4.jpeg" alt="">
+                            <div class="music-play-btn"><i id="4" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Bairan</div>
+                            <div class="img-description">Banjaare</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="images/5.jpeg" alt="">
+                            <div class="music-play-btn"><i id="5" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Mi Amor</div>
+                            <div class="img-description">Sharn</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="images/6.jpeg" alt="">
+                            <div class="music-play-btn"><i id="6" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Saiyara</div>
+                            <div class="img-description">Mohit Chauhan and Tarannum Malik Jain</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="artist-section">
+                    <h2>Popular artists</h2>
+                    <div class="artists">
+                        <div class="artist-card">
+                            <img src="images/1.jpg" alt="">
+                            <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Pritam</div>
+                            <div class="img-description">Artists</div>
+                        </div>
+                        <div class="artist-card">
+                            <img src="images/1.jpg" alt="">
+                            <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Pritam</div>
+                            <div class="img-description">Artists</div>
+                        </div>
+                        <div class="artist-card">
+                            <img src="images/1.jpg" alt="">
+                            <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Pritam</div>
+                            <div class="img-description">Artists</div>
+                        </div>
+                        <div class="artist-card">
+                            <img src="images/1.jpg" alt="">
+                            <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Pritam</div>
+                            <div class="img-description">Artists</div>
+                        </div>
+                        <div class="artist-card">
+                            <img src="images/1.jpg" alt="">
+                            <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Pritam</div>
+                            <div class="img-description">Artists</div>
+                        </div>
+                        <div class="artist-card">
+                            <img src="images/1.jpg" alt="">
+                            <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Pritam</div>
+                            <div class="img-description">Artists</div>
+                        </div>
+                        <div class="artist-card">
+                            <img src="images/1.jpg" alt="">
+                            <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Pritam</div>
+                            <div class="img-description">Artists</div>
+                        </div>
+                        <div class="artist-card">
+                            <img src="images/1.jpg" alt="">
+                            <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Pritam</div>
+                            <div class="img-description">Artists</div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="player-bar">
+        <div class="now-bar">
+            <img src="images/1.jpg" alt="">
+            <div>
+                <div class="img-title-info">Arz Kiya Hai |Coke Studio Bharat</div>
+                <div class="img-des-info">Anuv Jain</div>
+            </div>
+        </div>
+        <div class="music-controller">
+            <div class="player">
+                <div><i id="shuffle" class="player-btns fa-solid fa-shuffle"></i></div>
+                <div><i id="backward" class="player-btns fa-solid fa-backward-step"></i></div>
+                <div><i id="play" class="player-btns fa-solid fa-circle-play"></i></div>
+                <div><i id="forward" class="player-btns fa-solid fa-forward-step"></i></div>
+                <div><i id="repeat" class="player-btns fa-solid fa-repeat"></i></div>
+            </div>
+
+            <div>
+                <input type="range" id="progressBar" value="0">
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
