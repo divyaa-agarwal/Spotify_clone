@@ -255,6 +255,7 @@ input{
     border-radius: 10px;
     color: white;
     overflow-y: auto;
+    overflow-x: auto;
 }
 .music-card img{
     height: 10rem;
@@ -268,6 +269,7 @@ input{
     padding: 0.5rem;
     border-radius: 5px;
     cursor: pointer;
+    position: relative;
 }
 .music-card:hover{
     background-color:#1f1f1f;
@@ -278,6 +280,7 @@ input{
 .songs,.artists{
     margin: 2rem 0;
     display: flex;
+    flex-shrink:0 ;
     overflow-x: auto;
 }
 .img-title{
@@ -314,18 +317,20 @@ input{
     object-position: center;
     border-radius: 50%;
 }
+.img-box{position: re}
 .artist-card{
     width: 11rem;
     padding: 0.5rem;
     border-radius: 5px;
     cursor: pointer;
+    position: relative;
 }
 .artist-card:hover{
     background-color:#1f1f1f;
 }
 .artist-card:hover .music-play-btn{
     opacity: 1;
-    transform: translate(110px,-150px);
+    transform: translate(110px,-50px);
 }
 .player-bar{
     width: 100%;

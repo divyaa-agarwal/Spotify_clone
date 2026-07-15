@@ -46,6 +46,8 @@ playMusic.forEach((element) => {
         audio.src=`Audios/${index}.mpeg`;
         audio.currentTime=0;
         audio.play();
+        currentSong=index;
+        updateNowBar();
     })  
 })
 // playNextSong=() =>{
@@ -79,11 +81,12 @@ let allMusic = Array.from(document.getElementsByClassName('music-card'));
 
 songs = [
     { songName: 'Arz Kiya Hai |Coke Studio Bharat', songDes: 'Anuv Jain', songImage: 'images/1.jpg', songPath: 'Audios/1.mpeg' },
-    { songName: 'Husn', songDes: 'Anuv Jain', songImage: 'images/2.jpeg', songPath: 'Audios/2.mpeg' },
+    { songName: 'O Rangrez', songDes: 'Shreya Ghosal', songImage: 'images/2.jpeg', songPath: 'Audios/2.mpeg' },
     { songName: 'Boyfriend', songDes: 'Karan Aujla', songImage: 'images/3.jpeg', songPath: 'Audios/3.mpeg' },
     { songName: 'Bairan', songDes: 'Banjaare', songImage: 'images/4.jpeg', songPath: 'Audios/4.mpeg' },
     { songName: 'Mi Amor', songDes: 'Sharn', songImage: 'images/5.jpeg', songPath: 'Audios/5.mpeg' },
-    { songName: 'Saiyara', songDes: 'Mohit Chauhan and Tarannum Malik Jain', songImage: 'images/6.jpeg', songPath: 'Audios/6.mpeg' }
+    { songName: 'Saiyara', songDes: 'Faheem Abdullah', songImage: 'images/6.jpeg', songPath: 'Audios/6.mpeg' },
+    { songName: 'Husn', songDes: 'Anuv Jain', songImage: 'images/7.jpeg', songPath: 'Audios/7.mpeg' }
 ]
 
 order=[...songs];
